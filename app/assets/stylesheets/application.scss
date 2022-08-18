@@ -1,0 +1,21 @@
+$gray: #b8b3b3; // Defining a variable
+$spacer: 8px;
+
+body {
+  background-color: $gray;
+
+  p {
+    padding: ($spacer * 3) $spacer;
+    border: solid 1px black;
+    border-radius: $spacer / 2;
+    margin: $spacer * 2;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    font-size: 5rem;
+  }
+}
